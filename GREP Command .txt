@@ -1,0 +1,8 @@
+GREP Command
+
+It Prints output in Console from all the files in current folder
+grep -i "Julius" *|grep -i "Brutus" *| grep -v "Calpurnia"
+
+
+It Prints output in outfile.txt file from all the files in current folder
+grep -i "Julius" *|grep -i "Brutus" *| grep -v "Calpurnia" * > outfile.txt
